@@ -11,8 +11,8 @@ correction = 10 #correction angle
 clapSound = 3000 #clap treshold to trigger motion of the robot
 
 
-#while fa.ReadMic() < clapSound:
-   #fa.LCDPrint(28, 0, "You need to clap to start")
+while fa.ReadMic() < clapSound:
+   fa.LCDPrint(28, 0, "You need to clap to start")
 
 fa.LCDClear()
 
