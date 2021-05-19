@@ -39,8 +39,6 @@ while True:
                 movement = 5
     time.sleep(2)
     break
-            
-    
-    
+
 
 fa.ComClose()
