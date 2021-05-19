@@ -22,8 +22,6 @@ while True:
     elif frontSensor > 50:
         fa.Right(90)
 
-    
-
     #elif leftSensor < 20:
         #fa.Forwards(0)
        # fa.leftSensor(90)
@@ -33,10 +31,7 @@ while True:
        # fa.Right(90)
 
    # elif leftSensor <= wall and front <= wall:
-       ##fa.Forwards(0)
+        #fa.Forwards(0)
         #fa.Right(90)
-
-   
-    
 
 fa.ComClose()
